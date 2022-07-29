@@ -1,0 +1,101 @@
+.sidebar-btn {
+    background-color: #ffffff;
+    color: rgba(0, 0, 0, 0.85);
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 0.25rem;
+    box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+
+    font-family: "Lexend", sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+
+    line-height: 1.25;
+    min-height: 3rem;
+    padding: calc(0.875rem - 1px) calc(1.5rem - 1px);
+    margin: 3px;
+
+    transition: all 250ms;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+
+    vertical-align: baseline;
+    width: auto;
+
+    cursor: pointer;
+}
+
+.sidebar-btn:hover,
+.sidebar-btn:focus {
+    border-color: rgba(0, 0, 0, 0.15);
+    box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+    color: rgba(0, 0, 0, 0.65);
+}
+
+.sidebar-btn:hover {
+    transform: translateY(-1px);
+}
+
+.sidebar-btn:active {
+    background-color: #f0f0f1;
+    border-color: rgba(0, 0, 0, 0.15);
+    box-shadow: rgba(0, 0, 0, 0.06) 0 2px 4px;
+    color: rgba(0, 0, 0, 0.65);
+    transform: translateY(0);
+}
+
+.sidebar-btn a {
+    text-decoration: none;
+    color: black;
+}
+
+.standard-wrapper {
+    background: rgb(253, 253, 253);
+    padding: 20px;
+    box-shadow: 0px 0.3px 2.9px rgba(0, 0, 0, 0.07),
+        0px 0.8px 6.6px rgba(0, 0, 0, 0.053),
+        0px 1.3px 11.5px rgba(0, 0, 0, 0.046),
+        0px 2.1px 18.3px rgba(0, 0, 0, 0.04),
+        0px 3.3px 28.2px rgba(0, 0, 0, 0.035),
+        0px 5.1px 44px rgba(0, 0, 0, 0.03),
+        0px 8.5px 73.1px rgba(0, 0, 0, 0.024),
+        0px 17px 146px rgba(0, 0, 0, 0.017);
+    -webkit-box-shadow: 0px 0.3px 2.9px rgba(0, 0, 0, 0.07),
+        0px 0.8px 6.6px rgba(0, 0, 0, 0.053),
+        0px 1.3px 11.5px rgba(0, 0, 0, 0.046),
+        0px 2.1px 18.3px rgba(0, 0, 0, 0.04),
+        0px 3.3px 28.2px rgba(0, 0, 0, 0.035),
+        0px 5.1px 44px rgba(0, 0, 0, 0.03),
+        0px 8.5px 73.1px rgba(0, 0, 0, 0.024),
+        0px 17px 146px rgba(0, 0, 0, 0.017);
+}
+
+.padding {
+    padding-bottom: 18px;
+    padding-top: 18px;
+}
+.padding-sm {
+    padding: 10px;
+}
+.padding-md {
+    padding: 15px;
+}
+.padding-lg {
+    padding: 20px;
+}
+.padding-xlg {
+    padding: 30px;
+}
+.padding-xxlg {
+    padding: 40px;
+}
+.padding-xxxlg {
+    padding: 55px;
+}
+.center_content {
+    justify-content: center;
+}

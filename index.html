@@ -1,26 +1,136 @@
 <!DOCTYPE html>
-<head>
-    <title>School Automate</title>
-    <meta
-        content="width=device-width, initial-scale=1, shrink-to-fit=no"
-        name="viewport"
-    />
-    <link rel="stylesheet" href="css/page.css" />
-    <link rel="stylesheet" href="css/util.css" />
-    <link rel="stylesheet" href="css/page.css" />
+<html lang="en-us">
+    <head>
+        <meta charset="UTF-8" />
+        <title>School Automate</title>
 
-    <meta property="og:type" content="website" />
-    <meta property="og:url" content="" />
-    <meta property="og:title" content="DBTC School Automate" />
-    <meta
-        property="og:description"
-        content="DBTC School Automate redesigned by Matt Cabarrubias"
-    />
-    <meta property="og:image" content="" />
-</head>
+        <!--Viewport-->
+        <meta
+            content="width=device-width, initial-scale=1, shrink-to-fit=no"
+            name="viewport"
+        />
+        <link rel="icon" href="assets/logo.png" />
+
+        <!--Gfonts-->
+        <link rel="preconnect" href="https://fonts.gstatic.com" />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Quicksand&display=swap"
+            rel="stylesheet"
+        />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400&family=Lexend&display=swap"
+            rel="stylesheet"
+        />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap"
+            rel="stylesheet"
+        />
+
+        <!--Stylesheets-->
+        <link rel="stylesheet" href="css/page.css" />
+        <link rel="stylesheet" href="css/util.css" />
+        <link rel="stylesheet" href="css/page.css" />
+        <link rel="stylesheet" href="css/forms.css" />
+
+        <!--Metadata-->
+        <meta property="og:type" content="website" />
+        <meta
+            property="og:url"
+            content="https://devliqht.github.io/school-automate/"
+        />
+        <meta property="og:title" content="DBTC School Automate" />
+        <meta
+            property="og:description"
+            content="DBTC School Automate redesigned by Matt Cabarrubias"
+        />
+        <meta
+            property="og:image"
+            content="https://devliqht.github.io/school-automate/assets/meta-bg.jpg"
+        />
+    </head>
     <body>
-        <header></header>
-        <main></main>
-        <footer></footer>
+        <div class="page-wrapper">
+            <div class="page-body-wrapper">
+                <header>
+                    <div class="header-wrapper">
+                        <div class="school-logo">
+                            <img src="assets/logo.png" />
+                        </div>
+                        <div class="school-details">
+                            <h1 class="school-name">
+                                Don Bosco Technical College
+                            </h1>
+                            <h3 class="school-address">
+                                Punta Princesa, Cebu City, Philippines
+                            </h3>
+                        </div>
+                    </div>
+                </header>
+                <main>
+                    <div class="main-wrapper">
+                        <div class="main-sidebar">
+                            <div class="sidebar-btn">
+                                <a
+                                    href="#parents-students"
+                                    id="parents-students-btn"
+                                >
+                                    Parents/Students
+                                </a>
+                            </div>
+                            <div class="sidebar-btn">
+                                <a href="#management" id="management-btn">
+                                    Management
+                                </a>
+                            </div>
+                            <div class="sidebar-btn">
+                                <a
+                                    href="#administration"
+                                    id="administration-btn"
+                                >
+                                    Administration
+                                </a>
+                            </div>
+                            <div class="sidebar-btn">
+                                <a href="#academic" id="academic-btn">
+                                    Academic
+                                </a>
+                            </div>
+                            <div class="sidebar-btn">
+                                <a href="#basicedu" id="basicedu-btn">
+                                    Basic Education
+                                </a>
+                            </div>
+                        </div>
+                        <div class="padding-md"></div>
+                        <div class="main-content">
+                            <h2>Student/Parent Login</h2>
+                            <div class="padding-sm"></div>
+                            <form class="student-parent-login-form" action="">
+                                <div class="form-row">
+                                    <label class="form-label" for="fname">Username</label>
+                                    <input class="form-input" type="text" id="fname" name="fname"></input>
+                                </div>
+                                <div class="form-row">
+                                    <label class="form-label" for="lname">Password</label>
+                                    <input class="form-input" type="password" id="oassword" name="password"></input>
+                                </div>
+                                <input class="sidebar-btn" type="submit" value="Submit">
+                            </form> 
+                        </div>
+                    </div>
+                </main>
+                <footer>
+                    <div class="footer-wrapper">
+                        <div class="footer-title">
+                            <h4>Don Bosco Technical College Cebu.</h1>
+                        </div>
+                        <div class="footer-description">
+                            <h5>Punta Princesa, Cebu City, Philippines</h3>
+                        </div>
+                        <div class="footer-icon-wrapper"></div>
+                    </div>
+                </footer>
+            </div>
+        </div>
     </body>
 </html>

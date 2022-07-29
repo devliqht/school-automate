@@ -1,0 +1,128 @@
+* {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    padding: 0;
+    margin: 0;
+    transition: 0.3s;
+}
+
+body {
+    background-color: #ffffff;
+    opacity: 0.8;
+    background-image: linear-gradient(#fafafa 2px, transparent 2px),
+        linear-gradient(90deg, #fafafa 2px, transparent 2px),
+        linear-gradient(#fafafa 1px, transparent 1px),
+        linear-gradient(90deg, #fafafa 1px, #ffffff 1px);
+    background-size: 50px 50px, 50px 50px, 10px 10px, 10px 10px;
+    background-position: -2px -2px, -2px -2px, -1px -1px, -1px -1px;
+}
+header {
+    width: 100%;
+    padding: 20px;
+}
+
+main {
+    width: 100%;
+}
+
+footer {
+    width: 100%;
+    padding: 20px;
+}
+
+.page-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 99vh;
+}
+
+.page-body-wrapper {
+    display: flex;
+    flex-direction: column;
+    background: rgb(253, 253, 253);
+    padding: 20px;
+    box-shadow: 0px 0.3px 2.9px rgba(0, 0, 0, 0.07),
+        0px 0.8px 6.6px rgba(0, 0, 0, 0.053),
+        0px 1.3px 11.5px rgba(0, 0, 0, 0.046),
+        0px 2.1px 18.3px rgba(0, 0, 0, 0.04),
+        0px 3.3px 28.2px rgba(0, 0, 0, 0.035),
+        0px 5.1px 44px rgba(0, 0, 0, 0.03),
+        0px 8.5px 73.1px rgba(0, 0, 0, 0.024),
+        0px 17px 146px rgba(0, 0, 0, 0.017);
+    -webkit-box-shadow: 0px 0.3px 2.9px rgba(0, 0, 0, 0.07),
+        0px 0.8px 6.6px rgba(0, 0, 0, 0.053),
+        0px 1.3px 11.5px rgba(0, 0, 0, 0.046),
+        0px 2.1px 18.3px rgba(0, 0, 0, 0.04),
+        0px 3.3px 28.2px rgba(0, 0, 0, 0.035),
+        0px 5.1px 44px rgba(0, 0, 0, 0.03),
+        0px 8.5px 73.1px rgba(0, 0, 0, 0.024),
+        0px 17px 146px rgba(0, 0, 0, 0.017);
+}
+
+.header-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-wrapper > .school-logo img {
+    width: 100px;
+}
+
+.header-wrapper > .school-details {
+    margin: 10px;
+}
+.header-wrapper > .school-details > .school-name {
+    font-family: "Lexend", sans-serif;
+    font-weight: 100;
+}
+
+.header-wrapper > .school-details > .school-address {
+    font-family: "Quicksand", sans-serif;
+    font-weight: 100;
+}
+
+.main-wrapper {
+    display: flex;
+    flex-direction: row;
+}
+
+.main-sidebar {
+    display: flex;
+    flex-direction: column;
+}
+
+.main-content {
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    align-items: center;
+    justify-content: center;
+    background: rgb(235, 235, 235);
+    padding: 20px;
+}
+
+.main-content h2 {
+    font-family: "Lexend", sans-serif;
+    font-weight: 200;
+}
+
+.footer-wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-wrapper > .footer-title h4 {
+    font-family: "Lexend", sans-serif;
+    font-weight: 200;
+    text-align: center;
+}
+
+.footer-wrapper > .footer-description h5 {
+    font-family: "Quicksand", sans-serif;
+    font-weight: 300;
+    text-align: center;
+}
