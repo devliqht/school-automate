@@ -101,7 +101,7 @@ footer {
     width: 600px;
     align-items: center;
     justify-content: center;
-    background: rgb(235, 235, 235);
+    background: rgb(245, 245, 245);
     padding: 20px;
 }
 
@@ -125,4 +125,15 @@ footer {
     font-family: "Quicksand", sans-serif;
     font-weight: 300;
     text-align: center;
+}
+
+.footer-icon-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 24px;
+}
+
+.footer-icon-wrapper i {
+    padding: 5px;
 }
